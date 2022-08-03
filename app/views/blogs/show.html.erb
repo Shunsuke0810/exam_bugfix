@@ -23,9 +23,5 @@
   </p>
 <% end %>
 
-<p>
-  <%= render 'comments/form', blog: @blog %>
-</p>
-
 <%= link_to 'Edit', '/blogs/#{blog.id}/edit' %> |
 <%= link_to 'Back', blogs_path %>
